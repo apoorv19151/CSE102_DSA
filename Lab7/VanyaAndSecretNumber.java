@@ -34,7 +34,7 @@ class SinglyLinkedList {
     }
 
     public static void add(Node e, SinglyLinkedList list) {
-        if (list.head == null) {
+        if (list.isEmpty(list)) {
             list.head = e;
             return;
         }
